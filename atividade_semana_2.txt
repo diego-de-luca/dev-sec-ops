@@ -1,0 +1,23 @@
+Atividade 1: Diferencie CI, CD e Deploy Contínuo
+
+CI (Integração Contínua) é a prática de integrar alterações de código feitas por diferentes desenvolvedores de forma frequente (várias vezes ao dia), executando automaticamente testes para garantir que o código não quebre o sistema. Isso reduz conflitos, aumenta a confiança na base de código e facilita a detecção precoce de bugs.
+
+CD (Entrega Contínua) é a prática de manter o código sempre pronto para ser colocado em produção. Ela automatiza as etapas após a integração: build, testes, empacotamento e preparação para o deploy. A entrega é contínua, mas o deploy ainda pode ser feito manualmente.
+
+Deploy Contínuo vai além da Entrega Contínua. Nesse caso, cada alteração que passa pelos testes automatizados é implantada automaticamente em produção, sem necessidade de intervenção manual.
+
+
+Atividade 2: Explique o pipeline de entrega
+
+Um pipeline de entrega (Deployment Pipeline) é uma sequência automatizada de etapas que transforma o código escrito pelo desenvolvedor em software funcional em produção.
+As etapas clássicas incluem:
+Build – transforma o código em artefato executável.
+Test – executa testes automatizados (unitários, integração, etc.).
+Release – prepara o artefato para ser implantado.
+Deploy – realiza a implantação em ambiente de produção.
+Esse fluxo garante que apenas códigos testados e validados cheguem à produção, promovendo qualidade e agilidade.
+
+
+Atividade 3: Cite ao menos um padrão de release e sua utilidade
+
+Um exemplo de padrão de release é o Canary Release.Esse padrão consiste em liberar uma nova versão do software para uma pequena parcela dos usuários antes de disponibilizá-la para todos. Isso permite testar a nova versão em ambiente real, identificar bugs ou problemas com menor impacto e ter mais segurança para escalar a atualização para todos os usuários.
