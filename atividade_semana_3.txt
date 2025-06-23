@@ -1,6 +1,6 @@
 Funcionalidade: Login
 
-1. S - Spoofing (Falsidade de Identidade)
+1. S - Spoofing (Falsificação de identidade)
 
 Existe algum risco? Sim.
 
@@ -8,7 +8,7 @@ Qual seria? Um atacante pode tentar se passar por um usuário legítimo (ex: atr
 
 Quem se beneficiaria? Um invasor externo tentando acessar dados confidenciais ou tomar controle de contas.
 
-2. T - Tampering (Adulteração de Dados)
+2. T - Tampering (Manipulação indevida de dados)
 
 Existe algum risco? Sim.
 
@@ -16,7 +16,7 @@ Qual seria? Modificação de requisições de login (por exemplo, interceptar e 
 
 Quem se beneficiaria? Um atacante na rede (man-in-the-middle) ou alguém com acesso ao tráfego da aplicação.
 
-3. R - Repudiation (Repúdio)
+3. R - Repudiation (Ações sem rastreabilidade)
 
 Existe algum risco? Sim.
 
@@ -24,7 +24,7 @@ Qual seria? Um usuário pode negar que efetuou um login, especialmente se não h
 
 Quem se beneficiaria? Usuários mal-intencionados que tentam encobrir atividades suspeitas.
 
-4. I - Information Disclosure (Divulgação de Informações)
+4. I - Information Disclosure (Vazamento de informações)
 
 Existe algum risco? Sim.
 
@@ -32,7 +32,7 @@ Qual seria? Mensagens de erro que revelam se o usuário existe ("Usuário não e
 
 Quem se beneficiaria? Atacantes externos coletando informações para ataques de dicionário, força bruta ou engenharia social.
 
-5. D - Denial of Service (Negação de Serviço)
+5. D - Denial of Service (Interrupção do serviço)
 
 Existe algum risco? Sim.
 
@@ -40,7 +40,7 @@ Qual seria? Um atacante pode sobrecarregar o endpoint de login com milhares de r
 
 Quem se beneficiaria? Atacantes que desejam interromper o serviço, extorquir a empresa ou prejudicar a reputação da aplicação.
 
-6. E - Elevation of Privilege (Elevação de Privilégio)
+6. E - Elevation of Privilege (Elevação de privilégios)
 
 Existe algum risco? Sim.
 
