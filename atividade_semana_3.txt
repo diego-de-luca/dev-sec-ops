@@ -1,0 +1,49 @@
+Funcionalidade: Login
+
+1. S - Spoofing (Falsidade de Identidade)
+
+Existe algum risco? Sim.
+
+Qual seria? Um atacante pode tentar se passar por um usuário legítimo (ex: através de credenciais roubadas, ataques de phishing ou brute force).
+
+Quem se beneficiaria? Um invasor externo tentando acessar dados confidenciais ou tomar controle de contas.
+
+2. T - Tampering (Adulteração de Dados)
+
+Existe algum risco? Sim.
+
+Qual seria? Modificação de requisições de login (por exemplo, interceptar e alterar o payload em uma requisição HTTP se não for criptografada com HTTPS).
+
+Quem se beneficiaria? Um atacante na rede (man-in-the-middle) ou alguém com acesso ao tráfego da aplicação.
+
+3. R - Repudiation (Repúdio)
+
+Existe algum risco? Sim.
+
+Qual seria? Um usuário pode negar que efetuou um login, especialmente se não houver logs adequados ou mecanismos como autenticação multifator e auditoria.
+
+Quem se beneficiaria? Usuários mal-intencionados que tentam encobrir atividades suspeitas.
+
+4. I - Information Disclosure (Divulgação de Informações)
+
+Existe algum risco? Sim.
+
+Qual seria? Mensagens de erro que revelam se o usuário existe ("Usuário não encontrado" vs "Senha incorreta"), ou transmissão de credenciais sem criptografia.
+
+Quem se beneficiaria? Atacantes externos coletando informações para ataques de dicionário, força bruta ou engenharia social.
+
+5. D - Denial of Service (Negação de Serviço)
+
+Existe algum risco? Sim.
+
+Qual seria? Um atacante pode sobrecarregar o endpoint de login com milhares de requisições para impedir logins legítimos (DoS ou DDoS).
+
+Quem se beneficiaria? Atacantes que desejam interromper o serviço, extorquir a empresa ou prejudicar a reputação da aplicação.
+
+6. E - Elevation of Privilege (Elevação de Privilégio)
+
+Existe algum risco? Sim.
+
+Qual seria? Um atacante pode explorar vulnerabilidades no backend da funcionalidade de login para obter acesso com mais permissões do que deveria (ex: injeção de código ou falha na verificação de permissões).
+
+Quem se beneficiaria? Atacantes com acesso limitado ao sistema, tentando assumir privilégios de administrador.
